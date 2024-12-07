@@ -20,21 +20,60 @@
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
-        h1 {
+        h1, h2 {
             color: #2c3e50;
             border-bottom: 2px solid #3498db;
             padding-bottom: 10px;
         }
+        h2 {
+            margin-top: 40px;
+            font-size: 1.5em;
+        }
         p {
             color: #34495e;
             margin: 20px 0;
+        }
+        .features-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .features-list li {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+        }
+        .contact-info {
+            background-color: #e8f4f8;
+            padding: 20px;
+            border-radius: 4px;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Welcome to Thing-test</h1>
-        <p>This is a simple test page. More content coming soon!</p>
+        <p>This is our enhanced test page with multiple sections!</p>
+
+        <h2>About Us</h2>
+        <p>We are a dynamic team dedicated to creating awesome web content. Our mission is to demonstrate the power of simple, clean, and effective web design.</p>
+
+        <h2>Features</h2>
+        <ul class="features-list">
+            <li>✨ Clean and modern design</li>
+            <li>📱 Fully responsive layout</li>
+            <li>🎨 Beautiful typography</li>
+            <li>⚡ Optimized performance</li>
+        </ul>
+
+        <h2>Contact</h2>
+        <div class="contact-info">
+            <p>Get in touch with us:</p>
+            <p>📧 Email: info@example.com</p>
+            <p>📱 Phone: (555) 123-4567</p>
+            <p>🏢 Address: 123 Web Street, Internet City</p>
+        </div>
     </div>
 </body>
 </html>
